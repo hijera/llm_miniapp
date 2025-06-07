@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   // Базовый путь для GitHub Pages (замени 'llm_miniapp' на имя твоего репозитория)
-  base: process.env.NODE_ENV === 'production' ? '/llm_miniapp/dist/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/llm_miniapp/' : '/',
   server: {
     host: '0.0.0.0',
     port: 3000
