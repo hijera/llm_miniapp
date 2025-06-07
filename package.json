@@ -1,0 +1,24 @@
+{
+  "name": "telegram-miniapp-business-card",
+  "version": "1.0.0",
+  "description": "Telegram Mini App для создания визиток",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:github": "vite build --mode production",
+    "deploy:preview": "npm run build && npm run preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.0",
+    "html2canvas": "^1.4.1",
+    "vue": "^3.4.0",
+    "vuetify": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "terser": "^5.41.0",
+    "vite": "^5.0.0"
+  }
+}
